@@ -9,6 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
+//Include styles
+import "./css/style.css"
+
 
 ReactDOM.render(
     <App />,
