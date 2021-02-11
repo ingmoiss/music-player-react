@@ -2,6 +2,6 @@ body{
   background-color: #373a3b;
 }
 
-.cursor{
-  cursor: help !important;
+.cursor:hover{
+  cursor: pointer;
 }

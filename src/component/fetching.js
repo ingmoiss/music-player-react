@@ -67,13 +67,13 @@ export class Fetching extends React.Component {
           </div>
           <div className="fixed-bottom mb-2">
             <div className="d-flex justify-content-center align-items-center">
-              {<i className="fas fa-step-backward fa-lg mr-3"></i>}
+              {<i className="fas fa-step-backward fa-lg mr-3 cursor"></i>}
               {
                 <i
                   onClick={() => {
                     if (this.state.playingNow) this.state.playingNow.play();
                   }}
-                  className="far fa-play-circle fa-3x"
+                  className="far fa-play-circle fa-3x cursor"
                 ></i>
               }
               {
@@ -81,10 +81,10 @@ export class Fetching extends React.Component {
                   onClick={() => {
                     if (this.state.playingNow) this.state.playingNow.pause();
                   }}
-                  className="far fa-pause-circle fa-3x"
+                  className="far fa-pause-circle fa-3x cursor"
                 ></i>
               }
-              {<i className="fas fa-step-forward fa-lg ml-3"></i>}
+              {<i className="fas fa-step-forward fa-lg ml-3 cursor"></i>}
             </div>
           </div>
         </div>
